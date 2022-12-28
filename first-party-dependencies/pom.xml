@@ -6,7 +6,7 @@
   <groupId>com.google.cloud</groupId>
   <artifactId>first-party-dependencies</artifactId>
   <packaging>pom</packaging>
-  <version>3.1.0</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
+  <version>3.1.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
   <name>Google Cloud First-party Shared Dependencies</name>
   <url>https://github.com/googleapis/java-shared-dependencies</url>
   <description>
@@ -16,7 +16,8 @@
   <parent>
     <groupId>com.google.cloud</groupId>
     <artifactId>google-cloud-shared-config</artifactId>
-    <version>1.5.5</version>
+    <version>1.5.5</version> <!-- update to latest version of native-maven-plugin -->
+
   </parent>
 
   <organization>
