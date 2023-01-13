@@ -4,7 +4,7 @@
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-shared-dependencies</artifactId>
   <packaging>pom</packaging>
-  <version>3.1.0</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
+  <version>3.1.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
   <modules>
     <module>first-party-dependencies</module>
     <module>third-party-dependencies</module>
@@ -18,7 +18,9 @@
   <parent>
     <groupId>com.google.cloud</groupId>
     <artifactId>google-cloud-shared-config</artifactId>
-    <version>1.5.5</version>
+    <version>1.5.6-SNAPSHOT</version> <!-- update to latest version of native-maven-plugin -->
+ <!-- update to latest version of native-maven-plugin -->
+
   </parent>
 
   <organization>
@@ -65,14 +67,14 @@
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>first-party-dependencies</artifactId>
-        <version>3.1.0</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
+        <version>3.1.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>third-party-dependencies</artifactId>
-        <version>3.1.0</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
+        <version>3.1.1-SNAPSHOT</version><!-- {x-version-update:google-cloud-shared-dependencies:current} -->
         <type>pom</type>
         <scope>import</scope>
       </dependency>
